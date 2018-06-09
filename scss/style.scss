@@ -1,0 +1,223 @@
+body {
+  background: #fff;
+  font-family: "roboto"; }
+
+/* Required height of parents of the Full Page Intro and Intro itself */
+html,
+body,
+.view {
+  height: 80%; }
+
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 90px; }
+
+.top-nav-collapse {
+  background-color: #000; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #000; } }
+.link-style A:link {
+  COLOR: black;
+  TEXT-DECORATION: none;
+  font-weight: normal; }
+.link-style A:visited {
+  COLOR: black;
+  TEXT-DECORATION: none;
+  font-weight: normal;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 15px; }
+.link-style A:active {
+  COLOR: black;
+  TEXT-DECORATION: none;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 15px; }
+.link-style A:hover {
+  COLOR: black;
+  TEXT-DECORATION: none;
+  font-weight: none;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 15px; }
+
+.main-overlay {
+  background-color: #dadada;
+  padding-bottom: 100px; }
+
+.icon-padding-left {
+  padding-left: 10px; }
+
+.icon-padding-right {
+  padding-right: 10px; }
+
+.cat-label-top {
+  font-weight: 500;
+  background-color: white;
+  height: 20%;
+  margin-top: 90px; }
+
+.cat-label-bottom {
+  font-weight: 500;
+  max-width: 75%;
+  margin: auto; }
+
+.email-label {
+  font-weight: 500;
+  margin-top: 20px; }
+
+.grid-card-padding {
+  padding-right: 20px; }
+
+.btn, .btn-md {
+  font-size: 0.9rem !important;
+  font-weight: 500 !important; }
+
+.btn-padding {
+  padding-right: 70px; }
+
+.btn-category {
+  border: 1px solid black;
+  float: right;
+  border-radius: 30px;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 14px;
+  cursor: pointer; }
+
+.btn-success {
+  color: #43ba80 !important;
+  background-color: transparent !important;
+  box-shadow: none;
+  padding: 15px 40px 15px 40px !important; }
+
+.btn-success:hover, .btn-success:focus, .btn-success:active {
+  color: #fff !important;
+  background-color: 43ba80 !important;
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 15px 40px 15px 40px !important; }
+
+.load-more-btn {
+  border: 1px solid black;
+  background-color: transparent;
+  width: 150px;
+  border-radius: 5px;
+  color: black;
+  padding: 14px 28px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: none !important; }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #000;
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 70px; }
+
+/* Icons */
+
+.icon-logo {
+  width: 150px;
+  height: 100px;
+  padding-left: 10px;
+  vertical-align: bottom!important;
+  background: url("img/icons/sprite-sheet.svg");
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.icon-arrow-head-down {
+  width: 35px;
+  height: 25px;
+  padding-left: 10px;
+  vertical-align: bottom!important;
+  background: url("img/icons/sprite-sheet.svg");
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.icon-filter {
+  width: 35px;
+  height: 25px;
+  padding-right: 10px;
+  vertical-align: bottom!important;
+  background: url("img/icons/sprite-sheet.svg");
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.icon-bell {
+  width: 30px;
+  height: 20px;
+  padding-right: 10px;
+  vertical-align: middle!important;
+  background: url("img/icons/sprite-sheet.svg");
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.icon-wreath {
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin-top: -320px;
+  background: url("img/icons/sprite-sheet.svg");
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.icon-facebook {
+  display: block;
+  width: 20px;
+  height: 22px;
+  padding-right: 12px;  
+  background: url("img/icons/sprite-sheet.svg");
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; }
+ 
+.icon-twitter {
+  display: block;
+  width: 50px;
+  height: 30px;
+  padding-right: 30px;  
+  background: url("img/icons/sprite-sheet.svg");
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; } 
+  
+ .icon-instagram {
+  display: block;
+  width: 40px;
+  height: 30px;
+  padding-right: 25px;  
+  background: url("img/icons/sprite-sheet.svg");
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; }  
+  
+  .icon-google-plus {
+  display: block;
+  width: 45px;
+  height: 30px;
+  padding-right: 25px;  
+  background: url("img/icons/sprite-sheet.svg");
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; }   
+  
+.icon-linkedin {
+  display: block;
+  width: 25px;
+  height: 25px;
+  padding-right: 5px;  
+  background: url("img/icons/sprite-sheet.svg");
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; } 
+
+/*# sourceMappingURL=style.min.css.map */

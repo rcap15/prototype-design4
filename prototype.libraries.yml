@@ -1,0 +1,19 @@
+style:
+  css: 
+    theme:
+      css/bootstrap.css: {}
+      css/bootstrap.min.css: {}
+      css/mdb.css: {}
+      css/mdb.min.css: {}
+      css/style.css: {}
+      css/style.min.css: {}         
+            
+      
+  js:
+    js/bootstrap.js: {}
+    js/bootstrap.min.js: {}
+    js/jquery-3.2.1.min.js: {}
+    js/mdb.js: {}
+    js/mdb.min.js: {}
+    js/popper.min.js: {}
+    js/svgxuse.js: {}    

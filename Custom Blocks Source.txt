@@ -1,0 +1,385 @@
+Copy the code below and paste it in your custom block source code
+
+1. Primary Menu Block
+   
+<!-- Navbar -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+<div class="container"><!-- Brand --><a class="navbar-brand" href="#"><svg class="icon-logo"><use xlink:href="http://dev-prototypedrupaltask.pantheonsite.io/themes/prototype/img/icons/sprite-sheet.svg#icon-logo"></use></svg> </a> <!-- Collapse --><button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"></button> <!-- Links -->
+<div class="collapse navbar-collapse" id="navbarSupportedContent"><!-- Left -->
+<ul class="navbar-nav mr-auto" style="margin-left:320px;">
+	<li class="nav-item"><a class="nav-link" href="#">Working with us</a></li>
+	<li class="nav-item"><a class="nav-link" href="#">How we Hire</a></li>
+</ul>
+<!-- Right -->
+
+<ul class="navbar-nav nav-flex-icons">
+	<li class="nav-item btn-group"><a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink">En </a>
+
+	<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-primary"><a class="dropdown-item" href="#">En (English)</a> <a class="dropdown-item" href="#">Ar (Arabic)</a></div>
+	</li>
+</ul>
+</div>
+</div>
+</nav>
+<!-- Navbar -->
+
+   
+
+2. Banner Block
+    
+<div class="view" style="background-image: url('http://dev-prototypedrupaltask.pantheonsite.io/themes/prototype/img/images/banner.jpg'); background-repeat: no-repeat; background-size: cover; height: 650px;">
+<hr style="display: block; margin-top: 5.5em; margin-bottom: 0.5em; width:70%; border-style: inset; border-width: 1px;" /><!-- Mask & flexbox options-->
+<div class="mask rgba-black-light d-flex justify-content-center align-items-center"><!-- Content -->
+<div class="text-center white-text mx-5 wow fadeIn" style="margin-top: 400px;">
+<p class="mb-4 d-none d-md-block"><small>EVERYTHING STARTS WITH A PROTOTYPE</small></p>
+
+<h1 class="mb-4"><strong>JOIN US</strong></h1>
+</div>
+<!-- Content --></div>
+<!-- Mask & flexbox options--></div>
+	
+	
+	
+3. Category Top Block
+  
+<div class="row text-center link-style cat-label-top">
+<div class="col-xs-6 col-md-4">
+<p>I'M LOOKING FOR</p>
+
+<h2><b><a href="#">MANEGERIAL JOBS</a></b></h2>
+
+<p>&nbsp;</p>
+</div>
+
+<div class="col-xs-6 col-md-4">
+<p>I'M LOOKING FOR</p>
+
+<h2><b><a href="#">DEVELOPMENT JOBS</a></b></h2>
+
+<p>&nbsp;</p>
+</div>
+
+<div class="col-xs-6 col-md-4">
+<p>SHOW ME</p>
+
+<h2><a href="#">ALL JOBS</a></h2>
+
+<p>&nbsp;</p>
+</div>
+</div>
+
+  
+  
+
+4. Category Bottom Block
+  
+<div class="row text-center cat-label-bottom">
+<div class="col-md-3"><svg class="icon-filter"><use xlink:href="http://dev-prototypedrupaltask.pantheonsite.io/themes/prototype/img/icons/sprite-sheet.svg#icon-filter"></use></svg>FILTER BY</div>
+
+<div class="col-md-3">POSTING DATE<svg class="icon-arrow-head-down"><use xlink:href="http://dev-prototypedrupaltask.pantheonsite.io/themes/prototype/img/icons/sprite-sheet.svg#icon-arrow-head-down"></use></svg></div>
+
+<div class="col-md-3">NATIONALITY<svg class="icon-arrow-head-down"><use xlink:href="http://dev-prototypedrupaltask.pantheonsite.io/themes/prototype/img/icons/sprite-sheet.svg#icon-arrow-head-down"></use></svg></div>
+
+<div class="col-md-3">GENDER<svg class="icon-arrow-head-down"><use xlink:href="http://dev-prototypedrupaltask.pantheonsite.io/themes/prototype/img/icons/sprite-sheet.svg#icon-arrow-head-down"></use></svg></div>
+</div>
+ 
+  
+  
+
+5. Email Bottom Block
+  
+<div class="row text-center email-label">
+<div class="col-md-12"><svg class="icon-bell"><use xlink:href="http://dev-prototypedrupaltask.pantheonsite.io/themes/prototype/img/icons/sprite-sheet.svg#icon-bell"></use></svg>CREATE EMAIL NOTIFICATION</div>
+</div>
+  
+  
+  
+6. Main Content Block
+  
+<!--Main layout-->
+<main class="mt-5 pt-5 main-overlay">
+<div class="container"><!-- Projects section v.4 -->
+<section class="my-5"><!-- Grid row -->
+<div class="row"><!-- Grid column -->
+<div class="col-md-6">
+<div class="card card-image grid-card-padding">
+<div class="text-black d-flex align-items-center py-5 px-4 rounded"><svg class="icon-wreath"><use xlink:href="http://dev-prototypedrupaltask.pantheonsite.io/themes/prototype/img/icons/sprite-sheet.svg#icon-wreath"></use></svg>
+<div>
+<h6><strong><b>ACCOUNT MANAGER</b></strong><button class="btn-category">Management</button><br />
+<small>25/8/2017</small></h6>
+&nbsp;
+
+<p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem, optio vero odio nam sit officia accusamus...</p>
+
+<div class="row text-center">
+<div class="col-xs-6 col-md-4">
+<p class="pb-3">NATIONALITY<br />
+UAE</p>
+</div>
+
+<div class="col-xs-6 col-md-4">
+<p class="pb-3">SALARY<br />
+AED 8000</p>
+</div>
+
+<div class="col-xs-6 col-md-4">
+<p class="pb-3">LAST DATE<br />
+31/12/2007</p>
+</div>
+</div>
+
+<div class="text-center btn-padding"><a class="btn btn-success btn-rounded btn-md">APPLY AND OFFER</a></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Grid column --><!-- Grid column -->
+
+<div class="col-md-6">
+<div class="card card-image grid-card-padding">
+<div class="text-black d-flex align-items-center py-5 px-4 rounded"><svg class="icon-wreath"><use xlink:href="http://dev-prototypedrupaltask.pantheonsite.io/themes/prototype/img/icons/sprite-sheet.svg#icon-wreath"></use></svg>
+
+<div>
+<h6><strong><b>ACCOUNT MANAGER</b></strong><button class="btn-category">Management</button><br />
+<small>25/8/2017</small></h6>
+&nbsp;
+
+<p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem, optio vero odio nam sit officia accusamus...</p>
+
+<div class="row text-center">
+<div class="col-xs-6 col-md-4">
+<p class="pb-3">NATIONALITY<br />
+UAE</p>
+</div>
+
+<div class="col-xs-6 col-md-4">
+<p class="pb-3">SALARY<br />
+AED 8000</p>
+</div>
+
+<div class="col-xs-6 col-md-4">
+<p class="pb-3">LAST DATE<br />
+31/12/2007</p>
+</div>
+</div>
+
+<div class="text-center btn-padding"><a class="btn btn-success btn-rounded btn-md">APPLY AND OFFER</a></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Grid column --><!-- Grid column -->
+
+<div class="col-md-6">
+<div class="card card-image grid-card-padding">
+<div class="text-black d-flex align-items-center py-5 px-4 rounded"><svg class="icon-wreath"><use xlink:href="http://dev-prototypedrupaltask.pantheonsite.io/themes/prototype/img/icons/sprite-sheet.svg#icon-wreath"></use></svg>
+
+<div>
+<h6><strong><b>ACCOUNT MANAGER</b></strong><button class="btn-category">Management</button><br />
+<small>25/8/2017</small></h6>
+&nbsp;
+
+<p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem, optio vero odio nam sit officia accusamus...</p>
+
+<div class="row text-center">
+<div class="col-xs-6 col-md-4">
+<p class="pb-3">NATIONALITY<br />
+UAE</p>
+</div>
+
+<div class="col-xs-6 col-md-4">
+<p class="pb-3">SALARY<br />
+AED 8000</p>
+</div>
+
+<div class="col-xs-6 col-md-4">
+<p class="pb-3">LAST DATE<br />
+31/12/2007</p>
+</div>
+</div>
+
+<div class="text-center btn-padding"><a class="btn btn-success btn-rounded btn-md">APPLY AND OFFER</a></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Grid column --><!-- Grid column -->
+
+<div class="col-md-6">
+<div class="card card-image grid-card-padding">
+<div class="text-black d-flex align-items-center py-5 px-4 rounded"><svg class="icon-wreath"><use xlink:href="http://dev-prototypedrupaltask.pantheonsite.io/themes/prototype/img/icons/sprite-sheet.svg#icon-wreath"></use></svg>
+
+<div>
+<h6><strong><b>ACCOUNT MANAGER</b></strong><button class="btn-category">Management</button><br />
+<small>25/8/2017</small></h6>
+&nbsp;
+
+<p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem, optio vero odio nam sit officia accusamus...</p>
+
+<div class="row text-center">
+<div class="col-xs-6 col-md-4">
+<p class="pb-3">NATIONALITY<br />
+UAE</p>
+</div>
+
+<div class="col-xs-6 col-md-4">
+<p class="pb-3">SALARY<br />
+AED 8000</p>
+</div>
+
+<div class="col-xs-6 col-md-4">
+<p class="pb-3">LAST DATE<br />
+31/12/2007</p>
+</div>
+</div>
+
+<div class="text-center btn-padding"><a class="btn btn-success btn-rounded btn-md">APPLY AND OFFER</a></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Grid column --><!-- Grid column -->
+
+<div class="col-md-6">
+<div class="card card-image grid-card-padding">
+<div class="text-black d-flex align-items-center py-5 px-4 rounded"><svg class="icon-wreath"><use xlink:href="img/icons/sprite-sheet.svg#icon-wreath"></use></svg>
+
+<div>
+<h6><strong><b>ACCOUNT MANAGER</b></strong><button class="btn-category">Management</button><br />
+<small>25/8/2017</small></h6>
+&nbsp;
+
+<p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem, optio vero odio nam sit officia accusamus...</p>
+
+<div class="row text-center">
+<div class="col-xs-6 col-md-4">
+<p class="pb-3">NATIONALITY<br />
+UAE</p>
+</div>
+
+<div class="col-xs-6 col-md-4">
+<p class="pb-3">SALARY<br />
+AED 8000</p>
+</div>
+
+<div class="col-xs-6 col-md-4">
+<p class="pb-3">LAST DATE<br />
+31/12/2007</p>
+</div>
+</div>
+
+<div class="text-center btn-padding"><a class="btn btn-success btn-rounded btn-md">APPLY AND OFFER</a></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Grid column --><!-- Grid column -->
+
+<div class="col-md-6">
+<div class="card card-image grid-card-padding">
+<div class="text-black d-flex align-items-center py-5 px-4 rounded"><svg class="icon-wreath"><use xlink:href="http://dev-prototypedrupaltask.pantheonsite.io/themes/prototype/img/icons/sprite-sheet.svg#icon-wreath"></use></svg>
+
+<div>
+<h6><strong><b>ACCOUNT MANAGER</b></strong><button class="btn-category">Management</button><br />
+<small>25/8/2017</small></h6>
+&nbsp;
+
+<p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem, optio vero odio nam sit officia accusamus...</p>
+
+<div class="row text-center">
+<div class="col-xs-6 col-md-4">
+<p class="pb-3">NATIONALITY<br />
+UAE</p>
+</div>
+
+<div class="col-xs-6 col-md-4">
+<p class="pb-3">SALARY<br />
+AED 8000</p>
+</div>
+
+<div class="col-xs-6 col-md-4">
+<p class="pb-3">LAST DATE<br />
+31/12/2007</p>
+</div>
+</div>
+
+<div class="text-center btn-padding"><a class="btn btn-success btn-rounded btn-md">APPLY AND OFFER</a></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Grid column --></div>
+</section>
+<!-- Projects section v.4 --><!--Sample Load More button placement-->
+
+<div align="center" class="text-center"><button class="btn load-more-btn">LOAD MORE</button></div>
+</div>
+</main>
+<!--Main layout-->
+  
+  
+  
+7. Footer Top Block
+  
+<!--Footer links-->
+<div class="container">
+<div class="row mt-4 text-justify"><!--First column-->
+<div class="col-lg-2 col-md-6 ml-auto">
+<ul class="list-unstyled">
+	<li class="py-2"><a href="#!">Terms &amp; Conditions</a></li>
+	<li class="py-2"><a href="#!">FAQ</a></li>
+	<li class="py-2"><a href="#!">Privacy</a></li>
+</ul>
+</div>
+<!--/.First column-->
+
+<hr class="w-100 clearfix d-sm-none" /><!--Second column-->
+<div class="col-lg-2 col-md-6 ml-auto">
+<ul class="list-unstyled">
+	<li class="py-2"><a href="#!">News</a></li>
+	<li class="py-2"><a href="#!">Sitemap</a></li>
+</ul>
+</div>
+<!--/.Second column-->
+
+<hr class="w-100 clearfix d-sm-none" /><!--Third column-->
+<div class="col-lg-2 col-md-6 ml-auto">
+<ul class="list-unstyled">
+	<li class="py-2"><a href="#!">Working With Us</a></li>
+	<li class="py-2"><a href="#!">Careers</a></li>
+	<li class="py-2"><a href="/user">Login</a></li>
+</ul>
+</div>
+<!--/.Third column-->
+
+<hr class="w-100 clearfix d-sm-none" /><!--Fourth column-->
+<div class="col-md-2 ml-auto">
+<ul class="list-unstyled">
+	<li class="py-2"><a href="#!">FOLLOW US</a></li>
+</ul>
+
+<div class="row text-center">
+<div class="col-xs-6 col-md-2"><svg class="icon-facebook"><use xlink:href="http://dev-prototypedrupaltask.pantheonsite.io/themes/prototype/img/icons/sprite-sheet.svg#icon-facebook"></use></svg></div>
+
+<div class="col-xs-6 col-md-2"><svg class="icon-twitter"><use xlink:href="http://dev-prototypedrupaltask.pantheonsite.io/themes/prototype/img/icons/sprite-sheet.svg#icon-twitter"></use></svg></div>
+
+<div class="col-xs-6 col-md-2"><svg class="icon-instagram"><use xlink:href="http://dev-prototypedrupaltask.pantheonsite.io/themes/prototype/img/icons/sprite-sheet.svg#icon-instagram"></use></svg></div>
+
+<div class="col-xs-6 col-md-2"><svg class="icon-google-plus"><use xlink:href="http://dev-prototypedrupaltask.pantheonsite.io/themes/prototype/img/icons/sprite-sheet.svg#icon-google-plus"></use></svg></div>
+
+<div class="col-xs-6 col-md-2"><svg class="icon-linkedin"><use xlink:href="http://dev-prototypedrupaltask.pantheonsite.io/themes/prototype/img/icons/sprite-sheet.svg#icon-linkedin"></use></svg></div>
+</div>
+<!--/.Fourth column--></div>
+</div>
+<!--/.Footer links--></div>
+
+  
+  
+
+8. Footer Bottom Block
+
+<div class="footer-copyright py-3">© 2017 All Rights Reserved. Prototype Interactive, LLC.</div>
+
+
+
+
